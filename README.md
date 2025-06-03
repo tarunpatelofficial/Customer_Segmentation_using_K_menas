@@ -34,15 +34,18 @@ The clustering analysis provides distinct customer groups based on their feature
    git clone https://github.com/your-username/customer-segmentation.git
 
 2. Navigate to the project directory:
-cd customer-segmentation
+   ```bash
+   cd customer-segmentation
 
 3. Open the Jupyter notebook:
-jupyter notebook Customer_Segmentation.ipynb
+   ```bash
+   jupyter notebook Customer_Segmentation.ipynb
 
-## Requirements
+##📌 Requirements
 Python 3.7+
 
 Jupyter Notebook
 
 Install the required libraries:
-pip install pandas numpy matplotlib seaborn scikit-learn
+   ```bash
+   pip install pandas numpy matplotlib seaborn scikit-learn
