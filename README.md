@@ -41,7 +41,7 @@ The clustering analysis provides distinct customer groups based on their feature
    ```bash
    jupyter notebook Customer_Segmentation.ipynb
 
-##📌 Requirements
+## 📌 Requirements
 Python 3.7+
 
 Jupyter Notebook
