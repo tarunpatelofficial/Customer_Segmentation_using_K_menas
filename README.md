@@ -1,51 +1,111 @@
-# Customer Segmentation
+# 🧠 Customer Segmentation Using RFM & K-Means Clustering
 
-This project focuses on **Customer Segmentation** using unsupervised machine learning techniques, primarily **K-Means Clustering**. It aims to group customers based on purchasing behavior and demographic data, helping businesses understand their target audience more effectively.
+---
 
-## 📂 Project Structure
+## 📝 Project Summary
 
-- `Customer_Segmentation.ipynb` – Main notebook with data preprocessing, exploratory data analysis (EDA), clustering, and visualization.
+This project applies **RFM (Recency, Frequency, Monetary) analysis and K-Means clustering** to segment retail customers based on purchasing behavior. The results help businesses improve **targeted marketing, customer retention, and revenue optimization** using data-driven strategies.
 
-## 🧠 Technologies Used
+---
 
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Scikit-learn
+## 🎯 Business Problem
 
-## 🔍 Key Features
+Many businesses struggle to:
 
-- Data preprocessing and cleaning
-- Exploratory Data Analysis (EDA)
-- Elbow Method to find optimal number of clusters
-- K-Means clustering implementation
-- Cluster visualization using scatter plots
+- Identify **high-value vs low-value customers**
+- Detect **churn risk early**
+- Personalize marketing campaigns efficiently
 
-## 📊 Results
+This project solves these issues by grouping customers into **behavior-based segments** that support better **strategic business decisions**.
 
-The clustering analysis provides distinct customer groups based on their features (e.g., spending scores, annual income), allowing for targeted marketing strategies.
+---
 
-## 🚀 Getting Started
+## 💡 Approach
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/customer-segmentation.git
+1. **Data Cleaning & Preprocessing**
+    - Handled missing values
+    - Removed outliers using the **IQR method**
+    - Converted data types for time-based analysis
+2. **Feature Engineering**
+    - Created:
+        
+        ```
+        Amount = Quantity × UnitPrice
+        ```
+        
+1. **RFM Analysis**
+    - Recency: Days since last purchase
+    - Frequency: Number of transactions
+    - Monetary: Total spending
 
-2. Navigate to the project directory:
-   ```bash
-   cd customer-segmentation
+2. **Feature Scaling**    
+    - Applied **Min-Max Normalization**
+        
+3. **K-Means Clustering**
+    - Determined optimal clusters using:
+        - **Elbow Method**
+        - **Silhouette Score**
+    - Final model used **4 customer clusters**
 
-3. Open the Jupyter notebook:
-   ```bash
-   jupyter notebook Customer_Segmentation.ipynb
+---
 
-## 📌 Requirements
-Python 3.7+
+## 🛠 Tech Stack & Tools
 
-Jupyter Notebook
+- **Python**    
+- **Pandas, NumPy**
+- **Matplotlib, Seaborn**
+- **Scikit-learn**
+- **Jupyter Notebook**    
 
-Install the required libraries:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
+---
+
+## 📊 Key Insights & Results
+
+- Customers were segmented into **4 meaningful behavioral groups**
+- Identified:
+    - ✅ High-value loyal customers
+    - 🔁 Repeat mid-value customers
+    - ⚠️ At-risk low-activity customers
+    - ❌ Churn-prone customers        
+
+### 📈 Business Impact
+
+- Improved **customer lifetime value (CLV) forecasting**
+- Better **targeted marketing strategies**
+- Reduced **customer churn risk**
+- Enhanced **decision-making for sales & retention teams**
+
+---
+
+## 🧾 Dashboard Screenshots
+
+
+---
+
+## 🧪 Notebook Links
+
+- 📓 **Main Notebook:**  
+    `Customer_Segmentation.ipynb`
+    
+- 📂 GitHub Repository:
+
+```
+https://github.com/tarunpatelofficial/Customer_Segmentation_using_K_menas
+```
+
+---
+
+## ▶️ How to Run the Project
+
+```
+pip install pandas numpy matplotlib seaborn scikit-learn
+jupyter notebook Customer_Segmentation.ipynb
+```
+
+---
+
+## 👨‍💻 Author
+
+**[Tarun Patel]**  
+Aspiring Data Analyst | Python | Machine Learning | Business Analytics  
+LinkedIn: [https://www.linkedin.com/in/tarunpatelofficial/]
