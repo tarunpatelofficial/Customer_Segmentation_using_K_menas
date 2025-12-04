@@ -78,8 +78,15 @@ This project solves these issues by grouping customers into **behavior-based seg
 ---
 
 ## 🧾 Dashboard Screenshots
-
-
+![](Images/download(1).png)
+![](Images/download(2).png)
+![](Images/download(3).png)
+![](Images/download(4).png)
+![](Images/download(5).png)
+![](Images/download(6).png)
+![](Images/download(7).png)
+![](Images/download(8).png)
+![](Images/download(9).png)
 ---
 
 ## 🧪 Notebook Links
